@@ -1,2 +1,2 @@
-# oop_younglinux
+# younglinux-oopython
 https://younglinux.info/oopython/course
