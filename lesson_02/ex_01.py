@@ -31,4 +31,21 @@ print(a.n is B.n)
 B.n = 100
 print(a.n, b.n, B.n)
 
+
 # 3
+class B:
+    n = 3
+
+    def adder(self, v):
+        return v + self.n
+
+
+b = B()
+print(B.adder(B, 5))
+print(b.adder(5))
+print(b.__dict__)
+b.n = 777
+print(b.__dict__)
+b.__dict__['c'] = 10
+print(b.__dict__)
+print(b.c)
